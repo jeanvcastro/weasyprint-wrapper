@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" media="print" href="style.css" />
+    <title>WeasyPrint Wrapper</title>
+    <meta name="description" content="WeasyPrint Wrapper Sample" />
+
+    <!-- Sim, Google fonts funcionam nesse arquivo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      @page {
+        margin: 2cm;
+      }
+
+      html {
+        font-family: "Inter", sans-serif;
+        font-size: 12pt;
+        line-height: 1.6;
+      }
+      body {
+        margin: 0;
+      }
+
+      .red {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    Feito com <span class="red">♥</span> por <a href="https://github.com/jeanvcastro">jeanvcastro</a>
+  </body>
+</html>
